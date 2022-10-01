@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Norse';
+    src: url("Norse-Bold.otf") ;
+}
+
+body{
+    display: flex;
+    margin: 0px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    height: 100%;
+    justify-content: space-around; 
+}
+
+.right-side{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 0;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(250, 247, 244);
+    padding: 0px;
+}
+
+.credits{
+    font-size:small;
+    color: rgba(255, 255, 255, 0.801);
+    padding-bottom: 10px;
+}
+
+.desert{
+    position: absolute;
+    width: 49%;
+    height: 100vh;
+    z-index: -1; 
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.65;
+    flex: 1;
+    padding: 10px;
+}
+
+.odinn {
+    font-family: 'Norse';
+    color: white;
+    font-size: 6rem;
+}
+
+.accroche{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    padding-left: 50px;
+    padding-top: 100px;
+    gap: 20px;
+    width: 800px;
+}
+
+.form_flexbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_col{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form_row{
+    display: flex;
+    gap: 100px;
+}
+
+input{
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    width: 300px;
+    height: 25px;
+}
+
+.logo{
+    height: 150px;
+    width: 110px;
+}
+
+.left_bottom{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+.left_top{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.filler{
+    flex: 1;
+}
+
+fieldset{
+    background-color: white;
+    padding: 50px;
+    margin: 0px;
+    border-style:solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: saddlebrown;
+}
+
+.logintxt{
+    padding: 50px;
+}
+
+.button{
+    size: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: sandybrown;
+    color: black;
+    border-style:solid;
+    border-color: saddlebrown;
+    cursor: pointer;
+}
+
+legend{
+    font-size: x-large;
+}
+
+.error{
+    border-color: red;
+}
+
+

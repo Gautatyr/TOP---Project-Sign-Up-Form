@@ -5,9 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
+    <div class="left-side">
+        <img src="Ressources\henry-dick-5IvXBRQvfZo-unsplash.jpg" alt="Picture of dunes in the desert" class="desert">
+        <div class="left_top">
+            <div class="filler"></div>
+            <div class="logo-box">
+                <img src="Ressources\odin-lined.png" alt="The Odin Project Logo" class="logo">
+                <div class="odinn">Odinn</div>
+            </div>
+            <div class="filler"></div>
+        </div>
+        <div class="left_bottom">
+            <div class="credits">Photo by Henry Dick, https://unsplash.com/@henry_photo</div>
+        </div>
+    </div>
+
+    <div class="right-side">
+        <p class="accroche">
+            <span>
+                This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+            </span> 
+            <span>
+                Sign up <i>now</i> to get started.
+            </span>
+            <span></span>
+            <span>
+                You <i>know</i> you want to.
+            </span>
+        </p>
+        <form action="placeholder.com" method="post" name="my_form" id="my_form">
+            <fieldset>
+                <legend><b>Let's do this!</b></legend>
+                    <div class="form_flexbox">
+                        <div class="form_row">
+                            <div class="form_col">
+                                <label for="first_name">First Name</label>
+                                <input type="text" id="first_name" name="first_name" placeholder="Ragnar" required>
+                            </div>
+                            <div class="form_col">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" id="last_name" name="last_name" placeholder="Lothbrok" required>
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="form_col">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="youremail@example.com" required>
+                            </div>
+                            <div class="form_col">
+                                <label for="phone_number">Phone Number</label>
+                                <input type="tel" id="phone_number" name="phone_number" placeholder="0611223344" required>
+                            </div>
+                        </div>
+                        <div class="form_row">
+                            <div class="form_col">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" class="error" required>
+                            </div>
+                            <div class="form_col">
+                                <label for="password_confirmation">Confirm Password</label>
+                                <input type="password" id="password_confirmation" name="password_confirmation" class="error" required>
+                            </div>
+                        </div>
+                    </div>
+            </fieldset>
+        </form>
+        <input type="submit" form="my_form" class="button" value="Create Account"/>
+        <div class="logintxt">Already have an account? Log in</div>
+    </div>
 </body>
 </html>
